@@ -3,9 +3,9 @@ import CustomText from "../../Atoms/CustomText/CustomText";
 
 const WorkExperience = () => {
     return (
-        <Box sx={{borderBottom: '1px solid lightgrey'}}>
+        <Box sx={{borderBottom: '1px solid grey'}}>
             <CustomText
-                texto="Experiencia Laboral"
+                texto="Experiencia "
                 variante="titulo"
             />
             <Box height={10}/>

@@ -3,7 +3,7 @@ import CustomText from "../../Atoms/CustomText/CustomText";
 
 const ContactInfo = () => {
     return (
-       <Box sx={{borderBottom: '1px solid lightgrey'}}>
+       <Box sx={{borderBottom: '1px solid grey'}}>
             <CustomText
                 texto="Datos personales"
                 variante="titulo"
