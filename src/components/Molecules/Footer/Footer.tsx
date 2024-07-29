@@ -7,7 +7,7 @@ import CustomIcon from "../../Atoms/CustomIcon/CustomIcon";
 
 const Footer = () => {
     return(
-        <Box id="footer" display="flex" alignItems="center" gap={2}
+        <Box className="footer" display="flex" alignItems="center" gap={2}
             sx={{borderRadius: '10px'}}>
             <CustomIcon href="https://github.com/isabellaSolarte" color="#ffffff" Icon={GitHubIcon} />
             <Box width={10}/>

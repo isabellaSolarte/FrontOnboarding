@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <Box id="header" display="flex" alignItems="center" gap={2}
+    <Box className="header" display="flex" alignItems="center" gap={2}
       sx={{borderRadius: '10px'}}>
       <ProfileImage 
         src="public/Image.jpeg" 
